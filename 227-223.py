@@ -8,8 +8,8 @@ def run_script(script_name):
 if __name__ == '__main__':
     # Запускаем оба скрипта параллельно
     processes = []
-    processes.append(run_script('full_without_monitoring.py'))
-    processes.append(run_script('test_for_blade_223.py'))
+    processes.append(run_script('sborka_bez_monitoringa.py'))
+    processes.append(run_script('sborka_bez_monitoringa_blades.py'))
 
     # Дожидаемся завершения обоих скриптов
     for process in processes:
