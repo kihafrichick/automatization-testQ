@@ -1,0 +1,7 @@
+Location	ОТСиТП
+IPAddress	192.168.17.223
+CMPtNumber	CM-2G-2G-S-01
+SwNumber	Atlas 4.1.21 / OS 4.1.21
+CMSwNumber	2.1.8.tc
+LocalDate	12.09.2025
+LocalTime	16:20:21 +03:00
