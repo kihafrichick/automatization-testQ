@@ -95,7 +95,13 @@ class FunctionGroupTester:
         if not all([func1_success, func2_success]):
             result['passed'] = False
             result['details'].append(f"Ошибка выполнения функций")
-        
+            
+        if group_num == 1 and not all([func1_success, func2_success]):
+            result['passed'] = False
+            result['details'].append(f"Критическая ошибка выполнения функций в группе 1")
+            await self._update_kiwi_status(test_case_id=result['test_case_id'], passed=False, details=result['details'])
+            sys.exit(1)
+          
         # Проверка контрольной точки
         checkpoint_success = True
         if group_num in self.checkpoints:
