@@ -1,7 +1,0 @@
-Location	
-IPAddress	192.168.17.219
-CMPtNumber	CM-2G-2G-S-02
-SwNumber	Atlas 4.2.27 / OS 4.2.27
-CMSwNumber	2.1.8.tc
-LocalDate	14.01.2026
-LocalTime	18:05:33 +03:00
